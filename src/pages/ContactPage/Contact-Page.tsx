@@ -12,10 +12,10 @@ import { Link } from "react-router";
 const Contact= () => (
   <div className="min-h-screen flex items-center justify-center py-16 px-10">
     <div className="w-full max-w-(--breakpoint-xl) mx-auto px-6 xl:px-0">
-      <b className="text-muted-foreground uppercase font-semibold text-sm">
+      <b className="text-muted-foreground uppercase font-semibold text-purple-800 text-sm">
         Contact Us
       </b>
-      <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight">
+      <h2 className="mt-3 bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300 bg-clip-text text-transparent text- text-3xl md:text-4xl font-semibold tracking-tight">
         Chat with our friendly team!
       </h2>
       <p className="mt-3 text-base sm:text-lg text-muted-foreground">
@@ -25,10 +25,10 @@ const Contact= () => (
       <div className="mt-24 grid lg:grid-cols-2 gap-16 md:gap-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-12">
           <div>
-            <div className="h-12 w-12 flex items-center justify-center bg-[#461356] dark:bg-primary/10 text-primary rounded-full">
+            <div className="h-12 w-12 flex items-center justify-center bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300 dark:bg-primary/10 text-primary rounded-full">
               <MailIcon className="text-white" />
             </div>
-            <h3 className="mt-6 font-semibold text-xl">Email</h3>
+            <h3 className="mt-6 font-semibold text-purple-800 text-xl">Email</h3>
             <p className="my-2.5 text-muted-foreground">
               Our friendly team is here to help.
             </p>
@@ -40,10 +40,10 @@ const Contact= () => (
             </Link>
           </div>
           <div>
-            <div className="h-12 w-12 flex items-center justify-center bg-[#461356] dark:bg-primary/10 text-primary rounded-full">
+            <div className="h-12 w-12 flex items-center justify-center bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300  dark:bg-primary/10 text-primary rounded-full">
               <MessageCircle className="text-white" />
             </div>
-            <h3 className="mt-6 font-semibold text-xl">Live chat</h3>
+            <h3 className="mt-6 font-semibold text-purple-800 text-xl">Live chat</h3>
             <p className="my-2.5 text-muted-foreground">
               Our friendly team is here to help.
             </p>
@@ -52,10 +52,10 @@ const Contact= () => (
             </Link>
           </div>
           <div>
-            <div className="h-12 w-12 flex items-center justify-center bg-[#461356] dark:bg-primary/10 text-primary rounded-full">
+            <div className="h-12 w-12 flex items-center justify-center bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300  dark:bg-primary/10 text-primary rounded-full">
               <MapPinIcon className="text-white" />
             </div>
-            <h3 className="mt-6 font-semibold text-xl">Office</h3>
+            <h3 className="mt-6 font-semibold text-purple-800 text-xl">Office</h3>
             <p className="my-2.5 text-muted-foreground">
               Come say hello at our office HQ.
             </p>
@@ -68,10 +68,10 @@ const Contact= () => (
             </Link>
           </div>
           <div>
-            <div className="h-12 w-12 flex items-center justify-center bg-[#461356] dark:bg-primary/10 text-primary rounded-full">
+            <div className="h-12 w-12 flex items-center justify-center bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300  dark:bg-primary/10 text-primary rounded-full">
               <PhoneIcon className="text-white" />
             </div>
-            <h3 className="mt-6 font-semibold text-xl">Phone</h3>
+            <h3 className="mt-6 font-semibold text-purple-800 text-xl">Phone</h3>
             <p className="my-2.5 text-muted-foreground">
               Mon-Fri from 8am to 5pm.
             </p>
@@ -134,7 +134,7 @@ const Contact= () => (
                   </Label>
                 </div>
               </div>
-              <Button className="bg-[#461356] mt-6 w-full" size="lg">
+              <Button className="bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300  mt-6 w-full" size="lg">
                 Submit
               </Button>
             </form>

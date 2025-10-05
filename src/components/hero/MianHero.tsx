@@ -43,14 +43,15 @@ const HeroSectionWithSearch: React.FC = () => {
   return (
     <>
       {/* Hero Section */}
-      <div className="bg-[#461356] text-white py-20 px-4 text-center">
-        <h1 className="text-2xl md:text-5xl font-extrabold mb-6">
+      <div className="bg-gradient-to-r from-purple-800 via-purple-500 to-purple-400  py-20 px-4 text-center">
+        <h1 className="text-2xl md:text-5xl font-extrabold mb-6 text-purple-300">
           Discover Your Next Favorite Book
         </h1>
         <StatsCounterSection/>
-        <p className="text-md md:text-lg mb-8 text-gray-300">
+        <p className="text-8xl md:text-lg mb-8 text-gray-800 mt-4">
           Search millions of books instantly 
         </p>
+    
 
         <form
           onSubmit={handleSearch}
@@ -65,7 +66,7 @@ const HeroSectionWithSearch: React.FC = () => {
           />
           <button
             type="submit"
-            className="bg-white text-[#461356] font-bold px-6 py-3 rounded-full hover:bg-gray-100 transition shadow-md w-full sm:w-auto"
+            className="bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300  text-white font-bold px-6 py-3 rounded-full hover:bg-gray-100 transition shadow-md w-full sm:w-auto"
           >
             Search
           </button>

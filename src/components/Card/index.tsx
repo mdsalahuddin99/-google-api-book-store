@@ -36,7 +36,7 @@ const Counter = ({ end }: { end: number }) => {
 
 const StatsCounterSection: React.FC = () => {
   return (
-    <section className="bg-[#461356] text-white py-6">
+    <section className="bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300  text-white py-6">
       <div className="max-w-6xl mx-auto px-4">
       
 

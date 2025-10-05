@@ -35,14 +35,18 @@ const BestBook: React.FC = () => {
   return (
     <section className="py-16 px-4 bg-gray-50">
       {/* Section Header */}
-  <div className="text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-[#461356] mb-2">
+  
+    <div className="text-center mb-10 bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300 py-4 rounded-[10px]">
+       <h2 className="text-3xl mb-2 md:text-4xl font-extrabold text-white/80  ">
           Best Books
-        </h2>
-        <p className="text-gray-600 max-w-xl mx-auto">
+        </h2> 
+         <p className="text-gray-800 max-w-xl mx-auto">
           A collection of inspiring Islamic books from the Google Books API.
         </p>
-      </div>
+    </div>
+       
+      
+      
 
       {/* Book Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">

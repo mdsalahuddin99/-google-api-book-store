@@ -43,7 +43,7 @@ const BookCard: React.FC<BookCardProps> = ({ book }) => {
           href={info.previewLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-block text-sm font-medium text-white bg-[#461356] hover:bg-[#5b1a70] px-5 py-2.5 rounded-full transition-colors duration-200"
+          className="mt-4 inline-block text-sm font-medium text-white bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300  hover:bg-[#5b1a70] px-5 py-2.5 rounded-full transition-colors duration-200"
         >
           Read Now
         </a>
