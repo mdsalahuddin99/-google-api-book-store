@@ -15,17 +15,17 @@ interface Book {
 }
 
 const HeroSectionWithSearch: React.FC = () => {
-  const [query, setQuery] = useState("arabic language");
+  const [query, setQuery] = useState("");
   const [books, setBooks] = useState<Book[]>([]);
   const [loading, setLoading] = useState(false);
-  const [hasSearched, setHasSearched] = useState(false); // ✅ New
+  const [hasSearched, setHasSearched] = useState(false); // 
 
   const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!query) return;
 
     setLoading(true);
-    setHasSearched(true); // ✅ Mark that a search has been made
+    setHasSearched(true); // 
 
     try {
       const res = await fetch(
@@ -44,12 +44,12 @@ const HeroSectionWithSearch: React.FC = () => {
     <>
       {/* Hero Section */}
       <div className="bg-[#461356] text-white py-20 px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-extrabold mb-6">
+        <h1 className="text-2xl md:text-5xl font-extrabold mb-6">
           Discover Your Next Favorite Book
         </h1>
         <StatsCounterSection/>
         <p className="text-md md:text-lg mb-8 text-gray-300">
-          Search millions of books instantly using the Google Books API
+          Search millions of books instantly 
         </p>
 
         <form

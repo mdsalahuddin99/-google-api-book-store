@@ -40,10 +40,10 @@ const StatsCounterSection: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4">
       
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 text-center">
           {stats.map((stat) => (
             <div key={stat.label}>
-              <h3 className="text-5xl font-extrabold text-[#d8b4fe] drop-shadow">
+              <h3 className="text-3xl font-extrabold text-[#d8b4fe] drop-shadow">
                 <Counter end={stat.value} />
               </h3>
               <p className="mt-2 text-lg font-medium text-gray-200">

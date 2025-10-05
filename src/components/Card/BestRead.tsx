@@ -45,7 +45,7 @@ const BestBook: React.FC = () => {
       </div>
 
       {/* Book Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {books.length === 0 ? (
           <p className="col-span-full text-center text-gray-500 text-lg">
             No books found.
