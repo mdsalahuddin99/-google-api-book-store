@@ -48,7 +48,7 @@ const HeroSectionWithSearch: React.FC = () => {
           Discover Your Next Favorite Book
         </h1>
         <StatsCounterSection/>
-        <p className="text-8xl md:text-lg mb-8 text-gray-800 mt-4">
+        <p className="text-84xl md:text-lg mb-8 text-gray-800 mt-4">
           Search millions of books instantly 
         </p>
     

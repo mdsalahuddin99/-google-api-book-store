@@ -10,9 +10,9 @@ import { Link } from "react-router";
 
 
 const Contact= () => (
-  <div className="min-h-screen flex items-center justify-center py-16 px-10">
+  <div className="min-h-screen flex items-center justify-center py-16 px-1 md:px-3 lg:px-3 bg-white ">
     <div className="w-full max-w-(--breakpoint-xl) mx-auto px-6 xl:px-0">
-      <b className="text-muted-foreground uppercase font-semibold text-purple-800 text-sm">
+      <b className=" uppercase font-semibold text-purple-800 text-sm">
         Contact Us
       </b>
       <h2 className="mt-3 bg-gradient-to-r from-purple-800 via-purple-500 to-purple-300 bg-clip-text text-transparent text- text-3xl md:text-4xl font-semibold tracking-tight">
